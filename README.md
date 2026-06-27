@@ -1,9 +1,8 @@
-# trening-tracker
 # Trening · badminton
 
 Tracker postępów planu treningowego — badminton, bieganie, siła.
 
-**[→ Otwórz aplikację](https://TWOJ-LOGIN.github.io/NAZWA-REPO/)**
+**[→ Otwórz aplikację](https://mantix46.github.io/trening-tracker/)**
 
 ## Co robi
 
