@@ -1327,7 +1327,7 @@
 
     // ── 6. DATY ───────────────────────────────────────────────────
     function isoToday() { return iso(new Date()); }
-    function iso(d) { return d.toISOString().slice(0, 10); }
+    function iso(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
     function parseISO(s) { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); }
     const PL_DAYS = ["Niedziela", "Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota"];
     const PL_DAYS_SHORT = ["Nd", "Pon", "Wt", "Śr", "Czw", "Pt", "Sob"];
