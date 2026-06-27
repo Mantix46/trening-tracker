@@ -1,0 +1,40 @@
+# Zależności (Etap 3+ gdy dodasz npm/node)
+node_modules/
+.pnp
+.pnp.js
+
+# Klucze i sekrety — NIGDY nie wrzucaj do repo
+.env
+.env.local
+.env.*.local
+secrets.json
+firebase-config.json
+service-account.json
+google-credentials.json
+
+# Buildy (gdy dodasz bundler: Vite, Webpack itp.)
+dist/
+build/
+.cache/
+
+# Eksporty i backupy danych — trzymasz na Drive, nie w repo
+backup_*.json
+trening_backup_*.json
+eksport_*.csv
+eksport_*.xlsx
+
+# Systemy operacyjne
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Edytory
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tymczasowe
+*.log
+tmp/
+temp/
